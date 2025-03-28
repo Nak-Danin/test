@@ -1,0 +1,82 @@
+@media (max-width: 768px){
+    .proposal{
+        margin-top: 100px;
+        height: 300px;
+        background-size: 100%;
+    }
+    .proposal h1{
+        font-size: 30px;
+    }
+    .proposal img{
+        width: 200px;
+        height: 150px;
+    }
+    .Yes,.No{
+        font-size: 15px;
+    }
+    .agreeCartoon{
+        height: 100px;
+        margin-top: 50px;
+    }
+    .Goback{
+        margin-top: 150px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    i{
+        margin-right: 10px;
+    }
+    .leftpic img{
+        width: 100px;
+        height: 80px;
+    }
+    .rightpic img{
+        width: 80px;
+        height: 80px;
+    }
+    #happicat,#heart{
+        width: 50px;
+        height: 50px;
+    }
+    .speech{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    @keyframes jumping{
+        0% {transform: translate(0,-20px);}
+        25%{transform: translate(30px,-30px);}
+        50%{transform: translate(80px, -20px);}
+        75%{transform: translate(140px, -30px);}
+        100%{transform: translate(180px, -20px);}
+    }
+    @keyframes Slideleft{
+        0% {transform: translate(0,0);}
+        20%{transform: translate(30px,-20px);}
+        40%{transform: translate(70px, -30px);}
+        60%{transform: translate(100px, -20px);}
+        80%{transform: translate(130px, -30px);}
+        100%{transform: translate(180px, -20px);}
+    }
+    .disagreeCartoon{
+        margin-top: 100px;
+        .text{
+            font-size: 20px;
+        }
+        .top-img img{
+            width: 100px;
+            height: 100px;
+            animation: SlideRight 2s linear alternate infinite ;
+        }
+        .bot-img img{
+            width: 80px;
+            height: 80px;
+        }   
+        .text{
+            margin-top: 50px;
+        } 
+    }
+    @keyframes SlideRight{
+        0%{transform: translate(20px, 0px)}
+        100%{transform: translate(250px, 0px)}
+    }
+}

@@ -1,0 +1,169 @@
+
+.proposal{
+    background-image: url(https://cliply.co/wp-content/uploads/2020/01/402001120_PAPER_HEARTS_400px.gif);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    background-position-y: 60%;
+    background-size: 80%;
+    width: 100%;
+    height: 700px;
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+.response{
+    display: flex;
+    justify-content: center;
+}
+
+.agree,.disagree{
+    margin: 30px 50px;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.agree > label{
+    background-color: rgb(115, 185, 10);
+    padding: 10px 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(11, 186, 235);
+}
+
+.disagree > label{
+    background-color: rgb(226, 11, 33);
+    padding: 10px 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(1, 29, 37);
+}
+
+.Yes,.No{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.img{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.proposal img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.agreeContainer{
+    display: none;
+}
+.agreeCartoon{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+.Goback{
+    margin-top: 100px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+i{
+    margin-right: 10px;
+}
+
+.leftpic{
+    width: 20%;
+    height: 100%;
+    padding: 0;
+}
+
+.flying_heart{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.agreeCartoon img{
+    width: 300px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.rightpic{
+    width: 20%;
+    height: 100%;
+}
+
+#heart{
+    animation: Slideleft 3s linear infinite;
+}
+
+@keyframes Slideleft{
+    0% {transform: translate(0,0);}
+    20%{transform: translate(100px,-200px);}
+    40%{transform: translate(200px, -150px);}
+    60%{transform: translate(350px, -200px);}
+    80%{transform: translate(450px, -180px);}
+    100%{transform: translate(600px, -50px);}
+}
+
+.speech{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+#happicat{
+    animation: jumping 3s linear infinite;
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes jumping{
+    0% {transform: translate(0,-100px);}
+    25%{transform: translate(100px,-180px);}
+    50%{transform: translate(300px, -120px);}
+    75%{transform: translate(500px, -180px);}
+    100%{transform: translate(600px, -120px);}
+}
+.disagreeCartoon{
+    width: 100%;
+    margin-top: 30px;
+    display: none;
+}
+
+.bot-img{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.top-img img{
+    width: 500px;
+    height: 200px;
+    animation: SlideRight 2s linear infinite alternate;
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bot-img img{
+    width: 400px;
+    height: 400px;
+}
+
+@keyframes SlideRight{
+    0%{transform: translate(200px,0);}
+    100%{transform: translate(800px,0);}
+}
